@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Health</title>
+</head>
+<link rel="stylesheet" href="CSS/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: url('Images/img1.jpg')no-repeat;
+        color: azure;
+        font-family: 'Ubuntu', sans-serif;
+        height: 1000px;
+    }
+    .left {
+        /*border: 2px solid red;*/
+        position: absolute;
+        top: 20px;
+        left: 34px;
+        display: inline-block;
+        font-size: 15px;
+    }
+    .mid {
+        /*border: 2px solid blue;*/
+        display: block;
+        width: 45%;
+        margin: 20px auto;
+        font-size: 25px;
+    }
+    .right {
+        /*border: 2px solid green;*/
+        position: absolute;
+        top: 20px;
+        right: 34px;
+        display: inline-block;
+        padding: 12px;
+    }
+    .navbar {
+        display: inline-block;
+    }
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+    }
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 12px;
+    }
+    .navbar li a:hover {
+        color: rgb(221, 245, 114);
+        text-decoration: underline;
+    }
+    .left img{
+        width: 96px;
+    }
+    .left div{
+        text-align: center;
+    }
+    .btn {
+        cursor: pointer;
+        background-color: rgb(236, 109, 49);
+        color: white;
+        margin: 0px 9px;
+        padding: 2px;
+        border: 2px solid grey;
+        border-radius: 5px;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 19px;
+    }
+    .btn:hover{
+        background-color: rgb(133, 101, 101);
+    }
+    .container {
+        /*border: 2px solid white;*/
+        border-radius: 17px;
+        margin: 110px 79px;
+        padding: 76px 38px;
+        width: 24%;
+    }
+    .container h1 {
+        text-align: center;
+    }
+    .form-group input {
+        font-family: 'Ubuntu', sans-serif;
+        border: 2px solid black;
+        border-radius: 4px;
+        padding: 4px 4px;
+        margin: 13px auto;
+        width: 76%;
+        display: block;
+        text-align: center;
+        font-weight: bold;
+    }
+    .container button {
+        display: block;
+        width: 33%;
+        margin: 14px auto;
+    }
+</style>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="Images/img2.jpg" alt="">
+            <div>Happy Health</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Programs</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+
+        </div>
+        <div class="right">
+            <button class="btn">Call Us</button>
+            <button class="btn">E-mail Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join here right now!!!</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your locality">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your e-mail">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your phone number">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+
+    
+</body>
+</html>
